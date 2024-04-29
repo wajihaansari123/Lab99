@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    #header li a {
+        display: block;
+        width: 150px;
+        background-color: grey;
+        padding: 5px;
+        text-align: center;
+        border: 2px solid #000;
+    }
+    nav{
+        background-color: red;
+        margin: 40px;
+        padding: 40px;
+    }
+    a{
+        margin: 40px;
+        font-size: larger;
+        border-radius: 20px;
+        border-color: black;
+        background-color: white;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="header">
+        <h1>header</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+
+    <nav>
+        <a href="#">Home</a></li>
+        <a href="#">Home</a></li>
+        <a href="#">Home</a></li>
+    </nav>
+
+    <form action="index.html">
+        <label for="fname">First name</label>
+        <input type="text" placeholder="enter your first name" required>
+        <br>
+        <label for="lname">Last name</label>
+        <input type="text" value="enter your first name" required>
+        <button type="submit">submit</button>
+    </form>
+
+    <p>Enter your</p>
+    <input type="radio" id="html" name="language">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="language">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="js" name="language">
+    <label for="js">JS</label>
+
+
+    <p>Enter your</p>
+    <input type="checkbox" id="html" name="language">
+    <label for="html">HTML</label><br>
+    <input type="checkbox" id="css" name="language">
+    <label for="css">CSS</label><br>
+    <input type="checkbox" id="js" name="language">
+    <label for="js">JS</label>
+
+    <form method="post" action="apply-now.php">
+          <input name="subject" type="hidden" value="Class" />
+          <fieldset>
+            <legend>Academic information</legend>
+                <label for="degree">Degree</label>
+                <select name="degree" id="degree">
+                      <option value="BA">Bachelor of Art</option>
+                      <option value="BS">Bachelor of Science</option>
+                      <option value="MBA" selected="selected">Master of
+                            Business Administration</option>
+                    </select>
+                <br />
+                <label for="studentid">Student ID</label>
+                <input type="password" name="studentid" />
+             
+        </fieldset>
+          <fieldset>
+            <legend>Personal Details</legend>
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" id="fname" />
+                <br />
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" id="lname" />
+            <br />
+            Gender:
+            <input name="gender" type="radio" id="gm" value="m" />
+            <label for="gm">Male</label>
+            <input name="gender" type="radio" id="gf" value="f" />
+            <label for="gf">Female</label>
+            <br />
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+        </fieldset>
+        <p>
+            <textarea name="terms" cols="30" rows="4"  readonly="readonly">TERMS AND CONDITIONS...</textarea>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Send Form" />
+            <input type="reset" value="Clear Form" />
+        </p>
+    </form>
+
+</body>
+
+</html>

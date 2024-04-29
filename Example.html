@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Example</title>
+    <style>
+        .box{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 70px;
+            display: none;
+        }
+        @media (max-width: 300px){
+            #box-1{
+                display: block;
+                background-color: blueviolet;
+                color: white;
+            }
+        }
+        @media (min-width:300px)and (max-width: 500px){
+            #box-2{
+                display: block;
+                background-color: rgb(37, 3, 68);
+                color: white;
+
+            }
+        }
+        @media (min-width: 500px) and (max-width: 700px){
+            #box-3{
+                display: block;
+                background-color: rgb(76, 43, 226);
+                color: white;
+            }
+        }
+        @media (min-width: 700px) {
+            #box-4{
+                display: block;
+                background-color: rgb(96, 176, 241);
+                color: white;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box-1">mai aik IPHONE hun!</div>
+    <div class="box" id="box-2">mai aik TABLET hun!</div>
+    <div class="box" id="box-3">mai aik DESKTOP COMPUTER hun!</div>
+    <div class="box" id="box-4">mai aik WIDE-SCREEN COMPUTER hun!</div>
+</body>
+</html>

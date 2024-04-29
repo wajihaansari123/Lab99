@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: pink;
+            border-color: 2px solid black;
+            height: 80vh;
+            width: auto;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            align-content: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }   
+        .items{
+            background-color: purple;
+            border: 2px solid white;
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+            color: white;
+            flex-grow: 1;
+        }
+        .items5{
+            background-color: purple;
+            border: 2px solid white;
+            height: 50px;
+            width: 50px;
+            margin: 10px;
+            color: white;
+            /* flex-grow: 2; */
+            /* flex-shrink: 2; */
+        }
+        /* .order-1{
+            order: 100;
+        }
+        .order-2{
+            order: 2;
+        }
+        .order-3{
+            order: 1;
+        } */
+    </style>
+</head>
+<body>
+    <h1>FlexBox</h1>
+    <div class="container">
+        <div class="items order-1">1</div>
+        <div class="items order-2">2</div>
+        <div class="items order-3">3</div>
+        <div class="items">4</div>
+        <div class="items">5</div>
+        <div class="items">6</div>
+    </div>
+
+   <p style="background-color: red; display: inline;">wajiha is my name</p>
+</body>
+</html>

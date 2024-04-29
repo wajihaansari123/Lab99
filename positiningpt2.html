@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            position: absolute;
+            height:250px;
+            width: 250px;
+            border-radius: 200px;
+            left: 0px;
+            top: 0px;
+            z-index: 2;
+        }
+        .contaier{
+            background-color: red;
+            border: 2px solid black;
+            height: 260px;
+            position: relative;
+            z-index: 1;
+        }
+        .box1{
+            position: absolute;
+            height: 150px;
+            width: 400px;
+            background-color: purple;
+            z-index: 3;
+            top: 30px;
+            left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="contaier">
+    </div>
+    <img src="dumplings.jpeg" alt="">
+    <div class="box1">
+        I am box
+    </div>
+    
+</body>
+</html>

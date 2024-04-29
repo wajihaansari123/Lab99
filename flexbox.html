@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <style>
+        .container{
+            background-color: purple;
+            border: 2px solid red;
+            display: flex;
+            height: 80vh;
+            flex-direction: row-reverse;
+            /* align-items:flex-end; THIS IS FOR ITEMS IN SINGLE LINE */
+            align-content: center; /*THIS IS FOR ITEMS IN MULTIPLELINESSS */
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px 30px;
+        }
+        .box{
+            background-color: white;
+            height: 52px;
+            width: 52px;
+            border: 2px solid black;
+            /* flex-grow: 2; */
+            /* margin: 2px; */
+        }
+        /* .order-1{
+            order: 1;
+        }
+        .order-2{
+            order: 1;
+        }
+        .order-3{
+            order: 3;
+        } */
+        .box1{
+            /* flex-grow: 90; */
+            flex-shrink: 2;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="box box1 order-1">100000</div>
+            <div class="box order-1">1</div>
+            <div class="box order-2">2</div>
+            <div class="box order-3">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+          
+        </div>
+    </main>
+</body>
+</html>

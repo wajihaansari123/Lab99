@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<!-- <body>
+  <form action="index.html" method="post">
+    <label>First Name</label>
+    <input type="text" name="First Name" placeholder="Enter your name heres" required>
+    <button type="submit">Submit here</button>
+    <br>
+
+
+    <input type="hidden" name="Account">
+    <input type="password" placeholder="123*8900">
+
+    <input type="checkbox" required>
+
+    <input type="text" placeholder="Your Gender">
+
+    <input type="radio" name="Mr" id="Mr">
+    <input type="radio" name="Mrs" id="Mrs">
+
+    <select name="Gender">
+      <option value="Value-1">
+        Male
+      </option>
+      <option value="Value-2">
+        Female
+      </option>
+      <option value="Value-3">
+        Others
+      </option>
+    </select>
+
+    <input type="submit" name="submit-btns">
+
+
+    <input type="image" src="dumplings.jpeg" name="submt-image" alt="iDumpluu">
+    Gender:
+
+    <input name="gender" type="radio" id="gm">
+    <label for="gm">Male</label>
+    <input name="gender" type="radio" id="gf">
+    <label for="gf">Female</label>
+  </form>
+ -->
+
+
+ <form method="post" action="apply-now.php">
+    <input name="subject" type="hidden" value="Class" />
+    <fieldset><legend>Academic information</legend>
+      <label for="degree">Degree</label>
+      <select name="degree" id="degree">
+        <option value="BA">Bachelor of Art</option>
+        <option value="BS">Bachelor of Science</option>
+        <option value="MBA" selected="selected">Master of
+          Business Administration</option>
+      </select>
+      <br />
+      <label for="studentid">Student ID</label>
+      <input type="password" name="studentid" />
+    </fieldset>
+    <fieldset><legend>Personal Details</legend>
+      <label for="fname">First Name</label>
+      <input type="text" name="fname" id="fname" />
+      <br />
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" id="lname" />
+  <br />
+  Gender: 
+  <input name="gender" type="radio" id="gm" value="m" />
+  <label for="gm">Male</label>
+  <input name="gender" type="radio" id="gf" value="f" />
+  <label for="gf">Female</label>
+  <br />
+  <label for="email">Email</label>
+  <input type="text" name="email" id="email" />
+  </fieldset>
+  <p>
+  <textarea name="terms" cols="30" rows="4"
+   readonly="readonly">TERMS AND CONDITIONS...</textarea>
+  </p>
+  <p>
+  <input type="submit" name="submit" value="Send Form" />
+  <input type="reset" value="Clear Form" />
+  </p>
+  <a href="index.html" target="_blank">click me</a>
+  </form>
+    
+</body>
+
+</html>
